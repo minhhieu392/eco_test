@@ -1,0 +1,97 @@
+23-11-2022	24:00:10-----67d981f2-d89a-4cbf-aa9c-eba3f19bb481---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	34:04:10-----06eaaaf1-3fee-4e7d-98ad-093626de248e---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	05:05:10-----f6217a62-e3cd-47ad-8b30-51606e74fc42---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	31:05:10-----bbd34194-16d4-46e4-b932-331cdec33499---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	32:06:10-----cc132c3b-803a-4a49-a1c9-b4c7dea2b0ab---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	07:08:10-----f5d138b1-336a-424c-aa60-722857098ceb---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	47:09:10-----00e13d3d-166e-45e6-ae16-e2cff4f1f01e---/signup---POST---ReferenceError: data is not defined
+23-11-2022	11:10:10-----9b35459a-5892-4818-9f9a-2823e1df45d1---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	29:10:10-----5d911679-ee43-47bb-ab97-38ed395ad552---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	53:14:10-----7813cc65-9b89-441b-9424-a2b1dfe7c6f2---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	26:15:10-----d4f3de15-8518-492f-80d0-df7179fa6813---/signup---POST---TypeError: Cannot read properties of undefined (reading 'email')
+23-11-2022	25:20:10-----9ddc7e20-7626-408a-a1f9-4b1cac75ace5---/signup---POST---ReferenceError: db is not defined
+23-11-2022	27:20:10-----4b813813-9f79-413a-ac11-50ef8332b8e1---/signup---POST---ReferenceError: db is not defined
+23-11-2022	15:26:10-----7503cc04-045a-4e8e-98f0-3e7a005dbf81---/signup---POST---TypeError: Cannot read properties of undefined (reading 'create')
+23-11-2022	31:27:10-----79046fcd-4de7-4c3c-bb00-f75a1bd24f6f---/signup---POST---SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`eco_vga`.`users`, CONSTRAINT `shopId` FOREIGN KEY (`shopId`) REFERENCES `shops` (`id`))
+23-11-2022	52:15:11-----f7b7c6bf-cbf4-44c2-a0ba-cd107f178fa5---ReferenceError: email is not defined
+23-11-2022	52:15:11-----a4976ea2-1c8a-4f29-907b-0dec434aa456---/login---POST---ReferenceError: email is not defined
+23-11-2022	29:16:11-----cccd1425-cc33-4cde-bf74-61dd328b2027---ReferenceError: email is not defined
+23-11-2022	29:16:11-----e2594db5-bd34-4946-b5c3-125d0d53b59b---/login---POST---ReferenceError: email is not defined
+23-11-2022	44:17:11-----815e79e7-35a5-4ff9-ae5c-83d53cf0fafa---ReferenceError: password is not defined
+23-11-2022	44:17:11-----2f6a6454-0861-4403-ac92-a837c5fdef21---/login---POST---ReferenceError: password is not defined
+23-11-2022	53:31:14-----1b37c65f-c272-4da2-bd0b-9da1ca634fb7---/create-shop---POST---Error: WHERE parameter "email" has invalid "undefined" value
+23-11-2022	46:34:14-----e9d4c21e-7b79-4d12-9b92-be84fd164978---/create-shop---POST---Error: WHERE parameter "email" has invalid "undefined" value
+23-11-2022	40:59:14-----33487392-6212-41de-b633-413b2bee08d1---/create-shop---POST---TypeError: db.Shop.findOne(...) is not a function
+23-11-2022	46:16:17-----b36a9aa4-227a-4cb1-8143-25baad6abe13---/category?id=1---GET---SequelizeDatabaseError: Table 'eco_vga.groupproducts' doesn't exist
+23-11-2022	12:20:17-----b427a64e-05a1-4ae1-bb53-262d9dd92ac2---/category?id=1---GET---SequelizeDatabaseError: Table 'eco_vga.groupproducts' doesn't exist
+23-11-2022	34:21:17-----e0e3f521-a1ec-490e-8fa7-689ea9a65583---/category?id=1---GET---ReferenceError: limit is not defined
+23-11-2022	29:28:17-----bcb64353-a987-44a0-ba52-274be6b63be5---/category?id=1---GET---Error: Include unexpected. Element has to be either a Model, an Association or an object.
+24-11-2022	58:13:10-----1d2cf31e-8b55-4bb0-a5e4-65e640453c6d---/check---POST---SequelizeValidationError: string violation: total cannot be an array or an object
+24-11-2022	20:16:10-----e23e547a-3761-4cc9-a24e-d0a23877eb5f---/check---POST---SequelizeDatabaseError: Table 'eco_vga.orderdetails' doesn't exist
+24-11-2022	23:30:10-----f50dee9b-35b4-44af-8a80-7edb40ec71f1---/check---POST---SequelizeDatabaseError: Unknown column 'NaN' in 'field list'
+24-11-2022	09:54:10-----148925c5-942e-4b14-a384-46b85ef5b5da---/check---POST---TypeError: Cannot read properties of undefined (reading 'bulkCreate')
+24-11-2022	07:55:10-----0d157f0a-3bfa-46b9-a6fe-e78a568048a0---/check---POST---TypeError: Cannot read properties of undefined (reading 'bulkCreate')
+24-11-2022	50:55:10-----f674bd90-c579-4724-8984-b063fda93b75---/check---POST---TypeError: Cannot read properties of undefined (reading 'bulkCreate')
+24-11-2022	44:58:10-----bbdafc02-a9a4-4583-b32a-c3011098d874---/check---POST---SequelizeUniqueConstraintError: Validation error
+24-11-2022	41:50:15-----78c5f353-eeb0-4ec6-a9e3-6f5e40705fb0---TypeError: Cannot read properties of undefined (reading '0')
+24-11-2022	41:50:15-----0427419e-8c81-4ab5-a288-4ccdca17e714---/check---POST---TypeError: Cannot read properties of undefined (reading '0')
+24-11-2022	55:59:15-----6b4a2750-4847-4e67-874f-b6a2e511709d---TypeError: Cannot set properties of undefined (setting 'crrAmount')
+24-11-2022	55:59:15-----47324c98-e9c6-4fac-8781-9639ce56eee0---/check---POST---TypeError: Cannot set properties of undefined (setting 'crrAmount')
+24-11-2022	26:04:16-----fb29180a-9bfc-483d-b743-b39cc99af777---TypeError: "i" is read-only
+24-11-2022	26:04:16-----7e4c2695-200d-44c4-8742-0826f68c3a8c---/check---POST---TypeError: "i" is read-only
+24-11-2022	07:17:16-----e5b030f8-46a4-4536-85db-18f924df5b21---TypeError: Cannot set properties of undefined (setting '0')
+24-11-2022	07:17:16-----29739e2a-5518-4220-91e2-d281bd071843---/check---POST---TypeError: Cannot set properties of undefined (setting '0')
+24-11-2022	30:17:16-----f9ce1e3d-50f4-4a0d-8bf7-13b5a2a4ecb0---TypeError: Cannot set properties of undefined (setting 'crrAmount')
+24-11-2022	30:17:16-----cdf09d60-4b43-4eac-acaa-b5b460ebda0a---/check---POST---TypeError: Cannot set properties of undefined (setting 'crrAmount')
+24-11-2022	18:52:17-----815be1a9-3171-4bd0-a737-12bb04c03eb2---/product?search_query=ao&page=&limit=10---GET---Error: Invalid value { name: { undefined: '%ao%' } }
+24-11-2022	57:52:17-----29daff1e-6df2-4b5b-9d73-63b6fd21e41e---/product?search_query=%C3%81o&page=&limit=10---GET---Error: Invalid value { name: { undefined: '%Áo%' } }
+24-11-2022	11:55:17-----ddf29ff2-e1ee-4b3f-a529-969b2002ee73---/product?search_query=%C3%81o&page=0&limit=10---GET---Error: Invalid value { name: { undefined: '%Áo%' } }
+24-11-2022	25:49:20-----96e82cc0-4549-4f93-96b1-e4e7ae7c198d---/product?search_query=%C3%81o&page=0&limit=10---GET---Error: Invalid value { name: { undefined: '%Áo%' } }
+25-11-2022	29:59:13-----9c9b90cb-92eb-41e3-9e88-717ceed755d9---/create-member---POST---TypeError: console is not a function
+26-11-2022	17:27:17-----267f0575-bb10-4301-b845-f39591faa319---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	27:28:17-----3a632a49-cc28-4826-af6e-5ca4ba59a5a0---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	32:28:17-----0d0db5fc-881b-45b3-9f51-4afab19f0995---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	23:29:17-----f663819e-b48f-46ee-9b7d-3ad9dd9ebe2d---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	04:31:17-----24b0845d-efab-4b3a-b633-9c2c393f8b1d---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	53:37:17-----f6946d72-aea7-4bf3-9db7-318e8c038f91---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---Error: WHERE parameter "id" has invalid "undefined" value
+26-11-2022	01:40:17-----2a261c76-5c03-4909-878b-2ccc202494d5---/verify-invite?token=dc6163de-8d1a-413e-a1cf-7efcd02027b3&id=8&shopId=5---GET---SequelizeDatabaseError: Unknown column 'User.token' in 'where clause'
+27-11-2022	35:42:22-----6b9c47fd-5d6d-40a5-8474-ced1733e482a---/product?search_query=%C3%81o&page=0&limit=10---GET---ReferenceError: _ is not defined
+27-11-2022	00:43:23-----e70b1657-c664-4adc-adbe-b498c772d326---/product?category=1&search_query=&page=0&limit=10---GET---SequelizeDatabaseError: Unknown column 'Products.category' in 'where clause'
+28-11-2022	02:41:09-----3b141742-3604-4ab3-9a60-1336ae8f23f6---/sales?shopId=5&productId=1---GET---ReferenceError: userService is not defined
+28-11-2022	23:41:09-----b02d311b-e666-4d1b-8a64-60a8e38f0e8b---/sales?shopId=5&productId=1---GET---TypeError: shopService.statistical_sales is not a function
+28-11-2022	15:50:09-----da0eb9fe-a1e9-432f-a7d0-83d9805be01e---/sales?shopId=5&productId=1---GET---SequelizeEagerLoadingError: Products is not associated to Orders!
+28-11-2022	31:58:09-----d8bfbac2-09ec-40bc-8b2c-83484271bc08---/sales?shopId=5&productId=1---GET---SequelizeEagerLoadingError: Products is not associated to Orders!
+28-11-2022	35:05:10-----de8e906f-747f-4423-9839-3cf1eb802bb9---/sales?shopId=5&productId=1---GET---SequelizeDatabaseError: Column 'total' in field list is ambiguous
+28-11-2022	20:06:11-----ed5b4ed2-3d1b-4cb1-93c9-e110a64cbbed---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	12:09:11-----027b0f97-40d6-4b31-b0b9-c437fa48af61---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	28:12:11-----1f850276-3f9c-414c-afc4-c21542b7f0dd---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	22:14:11-----4f90d52f-6a33-4b83-b03a-5a6deeeb03af---/sales?shopId=5&productId=2---GET---Error: Include unexpected. Element has to be either a Model, an Association or an object.
+28-11-2022	56:14:11-----da4e9a81-a47d-4570-a88b-7a5d6adac913---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	11:18:11-----992bd335-e22b-4903-90d4-0cf7585f9b01---/sales?shopId=5&productId=2---GET---Error: Include unexpected. Element has to be either a Model, an Association or an object.
+28-11-2022	25:18:11-----0636dbb9-862d-474c-a10b-2edf0338cfcb---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	12:19:11-----b912357c-42cd-4d52-87a5-443ddc6106ed---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	12:20:11-----f9be4059-acda-4012-8594-c05bd9d15b7d---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	45:21:11-----99872729-2cd3-445b-afbb-e7e73991cd17---/sales?shopId=5---GET---Error: WHERE parameter "productId" has invalid "undefined" value
+28-11-2022	57:21:11-----875abc06-31e0-486e-8a45-f63367718eaf---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	20:23:11-----7affa6fb-9433-4884-84bb-405f0555042c---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	33:23:11-----8952985c-322d-43b8-9b0a-10c337468d85---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	45:24:11-----ba779e0b-1e24-4edc-aaef-96937724cb8e---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	04:38:11-----d24be2eb-ef46-4446-a16e-a4535766563b---/sales?shopId=5---GET---TypeError: result.get is not a function
+28-11-2022	41:39:11-----e4399bd8-ae56-40bf-b78b-c2d2e8405f2a---/sales?shopId=5---GET---TypeError: result.get is not a function
+28-11-2022	25:44:11-----46276e58-1f6b-475e-aa90-4c87ba511e52---/sales?shopId=5---GET---SequelizeDatabaseError: Unknown column 'Product.' in 'field list'
+28-11-2022	27:44:11-----e285b15a-186b-4978-b6e0-4808a572ffce---/sales?shopId=5---GET---SequelizeDatabaseError: Unknown column 'Product.' in 'field list'
+28-11-2022	49:46:11-----f107c343-c30a-410d-935b-c8b2507b1aee---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Product.productId' in 'on clause'
+28-11-2022	28:49:11-----75ec57d7-e1c0-43a3-9483-c592f8517a69---/sales?shopId=5---GET---SequelizeEagerLoadingError: Products is associated to orderDetails using an alias. You've included an alias (Products), but it does not match the alias(es) defined in your association (Product).
+28-11-2022	46:52:11-----0ba25330-8121-4630-a5db-6d5930117a7f---/sales?shopId=5---GET---SequelizeEagerLoadingError: Products is associated to orderDetails using an alias. You must use the 'as' keyword to specify the alias within your include statement.
+28-11-2022	40:53:11-----aa8dfe63-629f-4cba-9bf9-821559f96da4---/sales?shopId=5&productId=2---GET---SequelizeDatabaseError: Unknown column 'Products.productId' in 'on clause'
+30-11-2022	59:49:09-----6177dfe1-38ca-41fe-9cb5-069699f402ad---/list-member?action=GET&shopId=5---GET---Error: WHERE parameter "shopId" has invalid "undefined" value
+30-11-2022	44:50:09-----abe7b858-c17a-4b9b-9584-f4b3a87726d0---/list-member?action=GET&shopId=5---GET---Error: WHERE parameter "shopId" has invalid "undefined" value
+30-11-2022	10:51:09-----2c0a0ab5-6092-4230-9631-207b3d3cda38---/list-member?action=GET&shopId=5---GET---SequelizeDatabaseError: Table 'eco_vga.per_relationships' doesn't exist
+30-11-2022	48:52:09-----f5776e32-f169-4f5d-8f55-2b2e7ae2c389---/list-member?action=GET&shopId=5---GET---TypeError: result.get is not a function
+30-11-2022	37:55:09-----02cbddc2-441d-493f-b50f-7275c6ec5240---/list-member?action=GET&shopId=5---GET---TypeError: Cannot read properties of undefined (reading 'shopId')
+30-11-2022	37:56:09-----e2978e13-0f9c-4b83-8923-0ff5309a6e32---/list-member?action=GET&shopId=5---GET---ReferenceError: listMember is not defined
+30-11-2022	28:07:10-----c20fef57-0abe-4b9a-833f-f029acd76e74---/list-member?action=VIEW&shopId=5&userId=2---GET---Error: Include unexpected. Element has to be either a Model, an Association or an object.
+30-11-2022	47:12:10-----eb5c8392-8b29-409c-827e-59eb8b8fe251---/list-member?action=VIEW&shopId=5&userId=2---GET---Error: Include unexpected. Element has to be either a Model, an Association or an object.
+30-11-2022	50:01:14-----cb876283-2dbd-4b2c-bad7-ec81eb45fe46---/edit-member---POST---TypeError: Cannot read properties of undefined (reading 'handle_check_permision')
+30-11-2022	43:34:14-----8f340efb-5894-4634-ba06-3c354655712d---/edit-member---POST---TypeError: permision is not a function
+30-11-2022	47:38:14-----17cadc3d-2ec9-4a0f-b914-ee6e90f226e5---/edit-member---POST---ReferenceError: productData is not defined

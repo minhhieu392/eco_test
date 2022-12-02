@@ -1,0 +1,5 @@
+[undefined] error 2022-12-01 17:58:19 Unhandled rejection  Can't create table `tmdt_ver2`.`orderdetails` (errno: 150 "Foreign key constraint is incorrectly formed") 
+[undefined] error 2022-12-01 17:58:19 Unhandled rejection  Can't create table `tmdt_ver2`.`collections` (errno: 150 "Foreign key constraint is incorrectly formed") 
+[undefined] error 2022-12-01 17:58:19 Unhandled rejection  Can't create table `tmdt_ver2`.`orders` (errno: 150 "Foreign key constraint is incorrectly formed") 
+[undefined] error 2022-12-01 17:58:20 Unhandled rejection  Can't create table `tmdt_ver2`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") 
+[undefined] error 2022-12-01 17:58:20 Unhandled rejection  Can't create table `tmdt_ver2`.`permisionrelationships` (errno: 150 "Foreign key constraint is incorrectly formed") 
